@@ -158,8 +158,8 @@
       transition: border-color 0.2s;
     }
     .sk:hover { border-color: var(--gold); }
-    .sk-icon { font-size: 26px; margin-bottom: 10px; }
-    .sk-name { font-size: 13px; font-weight: 500; color: var(--text-mid); margin-bottom: 4px; }
+    .sk-icon { font-size: 26px; margin-bottom: 10px; min-height: 56px; display: flex; align-items: center; justify-content: center; }
+    .sk-name { font-size: 13px; font-weight: 500; color: var(--text-mid); margin-bottom: 4px; min-height: 40px; display: flex; align-items: center; justify-content: center; }      
     .sk-level { font-size: 11px; color: var(--text-dim); margin-bottom: 10px; }
 
 
@@ -292,7 +292,7 @@
 <section class="hero" style="border-bottom: 0.5px solid var(--border);">
   <!-- EDIT: Untuk pakai foto, ganti div avatar ini dengan:
        <img src="images/foto.jpg" class="avatar" style="object-fit:cover;" alt="Elsa"> -->
-  <div class="avatar">ER</div>
+  <img src="foto.jpeg" class="avatar" style="object-fit:cover;" alt="Elsa">
 
   <div class="hero-text">
     <!-- EDIT: Ganti tag line -->
@@ -307,15 +307,6 @@
   dashboard development, and financial reporting. Passionate about transforming complex 
   data into actionable insights through visualization and automation.
 </p>
-
-    <!-- EDIT: Tambah atau hapus chip -->
-    <div class="chips">
-      <span class="chip">Python</span>
-      <span class="chip">Excel / Google Sheets</span>
-      <span class="chip">Looker Studio</span>
-      <span class="chip">Statistics</span>
-      <span class="chip">Financial Analysis</span>
-    </div>
 
     <div class="btns">
       <a href="#projects" class="btn-gold">View my work</a>
@@ -346,7 +337,7 @@
   Experienced in building end-to-end dashboards, validating statistical datasets, 
 developing web scraping pipelines, and creating data visualizations 
 while working hands-on with <strong>Python, R, Looker Studio, and Excel</strong> 
-across internships at <strong>Bank Mega</strong> and <strong>BPS Kota Bandung</strong>.
+across internships at <strong>Bank Mega Jakarta</strong> and <strong>BPS Kota Bandung</strong>.
   <br><br>
   Beyond technical work, I have led financial operations as <strong>General Treasurer</strong>, 
   managing budgets and ensuring financial accountability across large-scale organizations.
@@ -392,42 +383,42 @@ across internships at <strong>Bank Mega</strong> and <strong>BPS Kota Bandung</s
   <!-- EDIT: Sesuaikan skill, level, dan persentase bar -->
   <div class="skills-grid">
    <div class="sk">
-  <img src="excel-seeklogo.png" style="width:40px;height:40px;object-fit:contain;margin-bottom:10px;">
+  <img src="excel-seeklogo.png" style="width:48px;height:48px;object-fit:contain;margin-bottom:10px;">
   <div class="sk-name">Excel / Google Sheets</div>
 </div>
 
 <div class="sk">
-  <img src="python-seeklogo.png" style="width:40px;height:40px;object-fit:contain;margin-bottom:10px;">
+  <img src="python-seeklogo.png" style="width:48px;height:48px;object-fit:contain;margin-bottom:10px;">
   <div class="sk-name">Python</div>
 </div>
 
 <div class="sk">
- <img src="google-looker-seeklogo.png" style="width:40px;height:40px;object-fit:contain;margin-bottom:10px;">
+ <img src="google-looker-seeklogo.png" style="width:48px;height:48px;object-fit:contain;margin-bottom:10px;">
   <div class="sk-name">Looker Studio</div>
 </div>
 
 <div class="sk">
-  <div class="sk-icon">📐</div>
+  <img src="statistics_116490.png" style="width:48px;height:48px;object-fit:contain;margin-bottom:10px;">
   <div class="sk-name">Statistics</div>
 </div>
 
 <div class="sk">
-  <div class="sk-icon">💰</div>
+  <img src="clipart2199091.png" style="width:48px;height:48px;object-fit:contain;margin-bottom:10px;">
   <div class="sk-name">Financial Analysis</div>
 </div>
 
 <div class="sk">
-<img src="r-studio-seeklogo.png" style="width:90px;height:40px;object-fit:contain;margin-bottom:10px;">
+<img src="r-studio-seeklogo.png" style="width:90px;height:48px;object-fit:contain;margin-bottom:10px;">
   <div class="sk-name">R Programming</div>
 </div>
 
 <div class="sk">
-  <div class="sk-icon">📋</div>
+  <img src="data-visualization.png" style="width:48px;height:48px;object-fit:contain;margin-bottom:10px;">
   <div class="sk-name">Data Visualization</div>
 </div>
 
 <div class="sk">
-  <img src="data-cleaning.png" style="width: 90px;height:40px;object-fit:contain;margin-bottom:10px;">
+  <img src="data-cleaning.png" style="width:48px ;height:48px;object-fit:contain;margin-bottom:10px;">
   <div class="sk-name">Data Cleaning</div>
 </div>
   </div>
@@ -446,47 +437,79 @@ across internships at <strong>Bank Mega</strong> and <strong>BPS Kota Bandung</s
 
   <div class="exp-list">
 
-    <!-- EXPERIENCE 1 -->
-    <div class="exp">
-      <div class="exp-timeline">
-        <div class="exp-dot"></div>
-        <div class="exp-line-v"></div>
-      </div>
-      <div>
-        <!-- EDIT: Ganti bulan & tahun magang -->
-        <div class="exp-period">2024 · Internship</div>
-        <div class="exp-role">Retail Funding & Wealth Sales Academy</div>
-        <div class="exp-company">Bank Mega — Jakarta</div>
-        <!-- EDIT: Tulis tugas & pencapaianmu lebih spesifik -->
-        <div class="exp-desc">
-          Supported the retail banking division in wealth management sales operations.
-          Gained exposure to financial product distribution, customer profiling, and
-          sales performance reporting within one of Indonesia's leading private banks.
-        </div>
+  <!-- EXPERIENCE 1 -->
+  <div class="exp">
+    <div class="exp-timeline">
+      <div class="exp-dot"></div>
+      <div class="exp-line-v"></div>
+    </div>
+    <div>
+      <div class="exp-period">Feb 2026 – Mar 2026 · Internship</div>
+      <div class="exp-role">Statistics Intern — Distribution Division</div>
+      <div class="exp-company">Badan Pusat Statistik (BPS) — Kota Bandung</div>
+      <div class="exp-desc">
+        Processed and validated statistical datasets across data quality dimensions.
+        Developed web scraping programs to automate e-commerce price data collection.
+        Created data visualizations and inflation reports for the Regional Inflation Control Team (TPID).
       </div>
     </div>
-
-    <!-- EXPERIENCE 2 -->
-    <div class="exp">
-      <div class="exp-timeline">
-        <div class="exp-dot"></div>
-        <div class="exp-line-v"></div>
-      </div>
-      <div>
-        <!-- EDIT: Ganti bulan & tahun magang -->
-        <div class="exp-period">2023 · Internship</div>
-        <div class="exp-role">Distribution Division</div>
-        <div class="exp-company">Badan Pusat Statistik (BPS) — Kota Bandung</div>
-        <!-- EDIT: Tulis tugas & pencapaianmu lebih spesifik -->
-        <div class="exp-desc">
-          Assisted in the collection, processing, and distribution of statistical data
-          at the regional office level. Contributed to the accuracy of data reporting
-          pipelines used for government planning and policy analysis.
-        </div>
-      </div>
-    </div>
-
   </div>
+
+  <!-- EXPERIENCE 2 -->
+  <div class="exp">
+    <div class="exp-timeline">
+      <div class="exp-dot"></div>
+      <div class="exp-line-v"></div>
+    </div>
+    <div>
+      <div class="exp-period">Jul 2025 – Aug 2025 · Internship</div>
+      <div class="exp-role">Retail Funding & Wealth Sales Academy Intern</div>
+      <div class="exp-company">Bank Mega — Jakarta Selatan</div>
+      <div class="exp-desc">
+        Designed and developed the STARS dashboard using Looker Studio to monitor training outcomes.
+        Built the TRACKS dashboard to track activity schedules and employee working hours.
+        Presented findings and recommendations to supervisors to support data-driven decision making.
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE 3 -->
+  <div class="exp">
+    <div class="exp-timeline">
+      <div class="exp-dot"></div>
+      <div class="exp-line-v"></div>
+    </div>
+    <div>
+      <div class="exp-period">Sep 2024 – Feb 2025 · Contract</div>
+      <div class="exp-role">Data Analysis Practice Assistant</div>
+      <div class="exp-company">Institut Teknologi Bandung (ITB) — Bandung</div>
+      <div class="exp-desc">
+        Assisted undergraduate students in practical sessions by troubleshooting R code errors.
+        Delivered a full session on Hypothesis Testing covering concept presentation and hands-on RStudio coding.
+        Designed pre-test and post-test assessments and evaluated student lab journals.
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE 4 -->
+  <div class="exp">
+    <div class="exp-timeline">
+      <div class="exp-dot"></div>
+      <div class="exp-line-v"></div>
+    </div>
+    <div>
+      <div class="exp-period">Nov 2023 – Aug 2024 · 10 mos</div>
+      <div class="exp-role">General Treasurer</div>
+      <div class="exp-company">P3RI Salman ITB 1445H — Bandung</div>
+      <div class="exp-desc">
+        Managed full financial operations overseeing budgets of IDR 200 million across 50+ divisions.
+        Produced consolidated financial reports ensuring accountability and transparency for all stakeholders.
+        Coordinated with division heads to monitor expenditure and prevent budget overruns.
+      </div>
+    </div>
+  </div>
+
+</div>
 </section>
 
 
@@ -507,57 +530,71 @@ across internships at <strong>Bank Mega</strong> and <strong>BPS Kota Bandung</s
       <!-- EDIT: Ganti dengan gambar project kamu.
            Taruh file gambar di folder images/, lalu ganti src di bawah.
            Contoh: <img src="images/cpl-tool.png" class="proj-img" alt="CPL CPMK Tool"> -->
-      <div class="proj-img-placeholder">
-        <span>Add screenshot here</span>
-      </div>
+     <img src="project-cpl.png" class="proj-img" alt="CPL CPMK Tool">
       <div class="proj-body">
-        <div class="proj-tag">Excel · Data Automation</div>
-        <div class="proj-title">Dynamic CPL-CPMK Assessment Tool</div>
-        <div class="proj-desc">
-          Designed and built a dynamic Excel-based system to automate academic performance
-          assessment for CPL and CPMK indicators. Streamlines evaluation workflows for
-          lecturers and the ASIIN accreditation team, reducing manual effort and minimizing error.
-        </div>
-        <!-- EDIT: Ganti href dengan link Google Drive / GitHub project -->
-        <a href="#" class="proj-link">View project →</a>
+       <div class="proj-tag">Excel · Data Automation · Education</div>
+<div class="proj-title">Dynamic CPL-CPMK Assessment Tool</div>
+<div class="proj-desc">
+  A fully automated Excel-based assessment system developed for ITB lecturers 
+  and the ASIIN accreditation team. Automatically calculates student scores, 
+  maps CPMK to CPL outcomes, generates radar chart visualizations, and 
+  categorizes achievement levels, reducing manual grading effort across 
+  12 interconnected sheets.
+</div>
+<a href="https://docs.google.com/spreadsheets/d/1Y3itiOA4gPIDPhd7frJlFOUBA0NaI6jt/edit?usp=sharing&ouid=117056406413529470760&rtpof=true&sd=true" class="proj-link">View project →</a>
       </div>
     </div>
 
     <!-- PROJECT 2 — EDIT dengan project nyatamu -->
     <div class="proj">
       <!-- EDIT: Ganti dengan gambar project -->
-      <div class="proj-img-placeholder">
-        <span>Add screenshot here</span>
-      </div>
+    <img src="project-ta-final.png" class="proj-img" alt="MCA Thesis Biplot">
       <div class="proj-body">
         <!-- EDIT: Ganti tag, judul, dan deskripsi -->
-        <div class="proj-tag">Python · Analysis</div>
-        <div class="proj-title">Your project title here</div>
-        <div class="proj-desc">
-          Describe your project — what problem it solves, tools you used, and the outcome.
-          College assignments, personal analysis, or anything that shows your skills all count!
-        </div>
+        <div class="proj-tag">R · Python · Statistics </div>
+    <div class="proj-title">Multiple Correspondence Analysis for Mathematics Learning Achievement</div>
+    <div class="proj-desc">
+       Final thesis research analyzing mathematics learning outcomes of 157 high schools 
+  across West Java using PCA, Correspondence Analysis, and Multiple Correspondence 
+  Analysis (MCA). Uncovered simultaneous associations between cognitive aspects, 
+  difficulty levels, and math content areas and producing multivariable biplots that 
+  map school performance patterns across 3 assessment dimensions.
+    </div>
         <!-- EDIT: Ganti href dengan link project -->
-        <a href="#" class="proj-link">View project →</a>
+        <a href="https://drive.google.com/file/d/1u6hg6S53BlKzoPLI2jaEkyVA8GpvEdX3/view?usp=sharing" class="proj-link">View project →</a>
       </div>
     </div>
 
-    <!-- PROJECT 3 — EDIT atau hapus kalau hanya punya 2 project -->
-    <div class="proj">
-      <div class="proj-img-placeholder">
-        <span>Add screenshot here</span>
-      </div>
-      <div class="proj-body">
-        <div class="proj-tag">Looker Studio · Dashboard</div>
-        <div class="proj-title">Your project title here</div>
-        <div class="proj-desc">
-          Add another project here — even a simple dashboard or data visualization
-          from your internship (if allowed) or coursework counts!
-        </div>
-        <a href="#" class="proj-link">View project →</a>
-      </div>
+<!-- PROJECT 3 — STARS -->
+<div class="proj">
+  <img src="project-stars (1).jpg" class="proj-img" alt="STARS Dashboard">
+  <div class="proj-body">
+    <div class="proj-tag">Looker Studio · Dashboard · Bank Mega</div>
+    <div class="proj-title">STARS — Sales Training Assessment & Reporting System</div>
+    <div class="proj-desc">
+      An interactive training evaluation dashboard built for Bank Mega's RFWS division, 
+      integrating the Kirkpatrick & CIPP evaluation models. Monitors facilitator scores, 
+      participant assessments, and training effectiveness across 4 evaluation levels.
     </div>
+    <a href="https://drive.google.com/file/d/1wK3ckKWnTzZitCaU2VLme7LZCBCsOloY/view?usp=sharing" class="proj-link">View project →</a>
+  </div>
+</div>
 
+<!-- PROJECT 4 — TRACKS -->
+<div class="proj">
+  <img src="project-tracks (1).jpg" class="proj-img" alt="TRACKS Dashboard">
+  <div class="proj-body">
+    <div class="proj-tag">Looker Studio · Dashboard · Bank Mega</div>
+    <div class="proj-title">TRACKS — Training & Schedule System</div>
+    <div class="proj-desc">
+      A schedule and activity monitoring dashboard for Bank Mega's RFWS team, 
+      tracking 142 activities across 4 departments with work hours summary, 
+      daily activity logs, and Zoom usage tracker and enabling data-driven 
+      evaluation of team productivity and resource allocation.
+    </div>
+    <a href="https://drive.google.com/file/d/11rwLWfWJTsyRJ_Xow66r_R2j_9BysubF/view?usp=sharing" class="proj-link">View project →</a>
+  </div>
+</div>
   </div>
 </section>
 
@@ -580,7 +617,7 @@ across internships at <strong>Bank Mega</strong> and <strong>BPS Kota Bandung</s
         and management trainee programs. Feel free to reach out, I'd love to connect!
       </p>
       <!-- EDIT: Ganti href email -->
-      <a href="mailto:elsarahmayani2004@gmail.com" class="btn-gold">Send me an email</a>
+      <a href="https://mail.google.com/mail/?view=cm&to=elsarahmayani2004@gmail.com" class="btn-gold" target="_blank">Send me an email</a>
     </div>
 
     <div class="contact-links">
@@ -613,7 +650,7 @@ across internships at <strong>Bank Mega</strong> and <strong>BPS Kota Bandung</s
 ════════════════════════════════ -->
 <footer>
   <!-- EDIT: Ganti nama & tahun -->
-  <p>© 2025 <span>Elsa Rahmayani Nasution</span> · Bandung, Indonesia</p>
+  <p>© 2026 <span>Elsa Rahmayani Nasution</span> · Bandung, Indonesia</p>
 </footer>
 
 </body>
